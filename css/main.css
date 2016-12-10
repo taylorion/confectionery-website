@@ -38,6 +38,18 @@ h2 {
   color: #6d1616
 }
 
+.hard-candy {
+  padding: 20px;
+}
+
+.text-padding {
+  padding-left: 20px;
+}
+
+.header-padding {
+  padding-left: 20px;
+}
+
 .nav {
   font-family: Lobster, cursive;
   position: relative;
