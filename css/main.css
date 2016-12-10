@@ -1,5 +1,5 @@
 html {
-  font-family: Merriweather, serif;
+  font-family: 'Sahitya', serif;
 }
 
 .color-brand {
@@ -24,14 +24,24 @@ a:hover {
 }
 
 .masthead {
-  background-color: #568c36;
+  background-color: #ab2222;
 
   color: #fff;
 }
 
+h1 {
+  font-family: Lobster, cursive;
+}
+
+h2 {
+  font-family: Lobster, cursive;
+  color: #6d1616
+}
+
 .nav {
+  font-family: Lobster, cursive;
   position: relative;
-  background-color: #113c00;
+  background-color: #6d1616;
   z-index: 2;
 }
 
@@ -45,8 +55,8 @@ a:hover {
 
 .nav a:hover,
 .nav a:focus {
-  background-color: #fff;
-  color: #113c00;
+  background-color: #ab2222;
+  color: #fff;
 }
 
 .about {
@@ -100,7 +110,7 @@ td {
     width: 100%;
 
     background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(17, 60, 0, .8));
+    background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(109, 22, 22, 1));
   }
 
 }
