@@ -6,10 +6,6 @@ html {
   color: #568c36;
 }
 
-.color-brand-dark {
-  color: #113c00;
-}
-
 a {
   color: #568c36;
 }
@@ -35,7 +31,11 @@ h1 {
 
 h2 {
   font-family: Lobster, cursive;
-  color: #6d1616
+  color: #ab2222;
+}
+
+tbody th {
+    font-weight: normal;
 }
 
 .hard-candy {
@@ -72,12 +72,24 @@ h2 {
 }
 
 .about {
-  position: relative;
+  background-color: #dfdcda;
 }
 
 .about-content {
-  background-color: #113c00;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(109, 22, 22, 1));
   color: #fff;
+}
+
+.summary {
+  position: relative;
+}
+
+.summary-content {
+  width: 100%;
 }
 
 .prices {
@@ -98,31 +110,29 @@ td {
 }
 
 .btn {
-  background-color: #113c00;
-  border-color: #113c00;
-
+  background-color: #6d1616;
+  border-color: #000;
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #568c36;
-  border-color: #568c36;
+  background-color: #ab2222;
+  border-color: #000;
 }
 
 .footer {
-  background-color: #113c00;
+  background-color: #ab2222;
   color: #fff;
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 750px) {
 
-  .about-content {
+  .summary-content {
     bottom: 0;
     position: absolute;
-    width: 100%;
-
-    background-color: transparent;
     background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(109, 22, 22, 1));
+    background-color: transparent;
+    color: #fff;
   }
 
 }
