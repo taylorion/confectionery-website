@@ -21,6 +21,7 @@ a:hover {
 
 .masthead {
   background-color: #ab2222;
+  background-image: url("../images/candy/banner-image.jpg");
 
   color: #fff;
 }
