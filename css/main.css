@@ -1,5 +1,5 @@
 html {
-  font-family: "Sahitya", serif;
+  font-family: Sahitya, serif;
 }
 
 .color-brand {
@@ -32,6 +32,11 @@ h1 {
 h2 {
   font-family: Lobster, cursive;
   color: #ab2222;
+}
+
+th,
+td {
+  border-color: #dfdcda;
 }
 
 tbody th {
@@ -96,10 +101,6 @@ tbody th {
   background-color: #f5f2f0;
 }
 
-th,
-td {
-  border-color: #dfdcda;
-}
 
 .news {
   background-color: #eeebe9;
